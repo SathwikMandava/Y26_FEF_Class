@@ -1,0 +1,65 @@
+*{
+    margin: 100;
+    padding: 200;
+    box-sizing: border-box;
+   
+}
+#aa{
+    color: red;
+    background-color: aqua;
+}
+#bb{
+    color: crimson;
+    background-color: black;
+}
+.cc{
+    color: blue;
+}
+.dd{
+    color: brown;
+}
+h2, h3 {
+    color: chocolate;
+}
+div p {
+    color: darkmagenta;
+}
+div > p{
+    color: darkgreen;
+}
+h2 + p{
+    color: fuchsia;
+}
+h3 ~ p1
+{
+    color: gold;
+}
+input[type="text"]{
+    background-color: aquamarine;
+}
+/* ::first-letter
+   Styles the first letter of paragraph */
+.pseudo::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+/* ::first-line
+   Styles the first line of paragraph */
+.pseudo::first-line {
+    color: blue;
+    background-color: burlywood;
+}
+.after::before {
+    content: "★ ";
+    color: orange;
+}
+#para {
+    color: red;
+}
+h2{
+    background-color: pink;
+}
+h3{
+    background-color: darkgray;
+}
